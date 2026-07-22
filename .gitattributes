@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Published snapshots must retain their exact bytes for SHA-256 verification.
+versions/** -text
